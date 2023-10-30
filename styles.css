@@ -58,6 +58,7 @@ header {
 .navbar a {
     font-size: 1rem;
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 .navbar a::after {
@@ -87,6 +88,7 @@ header {
     padding: 10px 20px ;
     color: var(--text-color);
     font-weight: 500;
+    text-decoration: none;
 }
 
 .header-btn .sign-in {
@@ -95,11 +97,11 @@ header {
     border-radius: 0.5rem;
 }
 
-/* .header-btn .sign-up {
+.header-btn .sign-up {
     background-color: #474fa0;
     color: #fff;
     border-radius: 0.5rem;
-} */
+}
 
 .header-btn .sign-in:hover {
     background: var(--main-color);
@@ -108,7 +110,7 @@ header {
 .home {
     width: 100%;
     min-height: 100vh;
-    background: url(img/Car\ website\ -\ 1@2x.png);
+    background: url(img/Car\ Website\ –\ 1@2x.png);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -137,4 +139,5 @@ header {
 .app-stores img {
     width: 100px;
     margin-right: 1rem;
+    margin-top: 1rem;
 }
