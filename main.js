@@ -11,3 +11,18 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
+const sr = scrollreveal ({
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    reset: true
+});
+
+sr.reaveal('.text',{delay: 200, origin: 'top'})
+sr.reaveal('.form-container form',{delay: 800, origin: 'left'})
+sr.reaveal('.heading',{delay: 800, origin: 'top'})
+sr.reaveal('.ride-container .box',{delay: 600, origin: 'top'})
+sr.reaveal('.services-container .box',{delay: 600, origin: 'top'})
+sr.reaveal('.about-container .box',{delay: 600, origin: 'top'})
+sr.reaveal('.reviews-container .box',{delay: 600, origin: 'top'})
+sr.reaveal('.newsletter-container',{delay: 400, origin: 'bottom'})
